@@ -1,0 +1,27 @@
+@import "variables";
+
+.footer {
+  background-color: $clrNeutralVeryDarkCyan;
+  height: 100%;
+  color: $clrNeutralVeryPaleBlue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  font-size: $fsPrimaryMobile;
+  .newsletter {
+    h1 {
+      font-family: $ffBody;
+      font-weight: $fwRegular;
+    }
+    p {
+      font-family: $ffBody;
+      width: 90%;
+    }
+    input {
+      border-radius: 10px;
+      width: 90%;
+      height: 50px;
+    }
+  }
+}
